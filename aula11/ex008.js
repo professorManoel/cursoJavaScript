@@ -1,3 +1,6 @@
-var vel = 60.5
-console.log(`A velocidade do carro é ${vel} Km/h`)
-console.log(`A velocidade do seu carro é ${vel} Km/h`)
+var vel = 50
+
+
+if(vel > 60){
+    console.log(`Você ultrapassoua a velocidade`)
+}
